@@ -1,0 +1,245 @@
+   /*CSS Day 1 - My Portfolio*/
+   
+   /*1. whole page */
+   body {
+    background-color: red;
+   font-family: Arial,  sans-serif;
+   color: #333;
+   margin: 0;
+}
+
+/* Header */
+
+header {
+background-color: green;
+color: white;
+text-align: center;
+padding: 30px;
+}
+
+/*3. Main heading */
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* 4. Navigation menu */
+nav {
+    background-color: #2d3436;
+    text-align: center;
+    padding: 15px;
+} 
+
+/* 5. Navigation links */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+/* 6. Main content */
+
+main {
+    padding: 20px;
+}
+
+/* 7. Sections */
+
+section {
+    background-color:white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Section headings */
+
+h2 {
+    color: #6c5ce7;
+}
+
+/* 9. Paragraph */
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    color: darkblue; 
+}
+
+body {
+    background-color: lightgrey;
+}
+
+section {
+    padding: 20px 30px;
+    margin: 20px 30px;
+
+    border: 3px solid purple;
+
+    width: 80%;
+    min-width: 300px;
+    max-width: 1000px;
+
+    min-height: 150px;
+
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    padding: 10px 20px;
+    background-color: lighblue;
+    border-radius: 8px;
+}
+
+#skills ul {
+    display:flex;
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    padding: 10px 20px;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav a {
+    margin: 0 8px;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#about img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+nav a:hover {
+    background-color: lightgray;
+    color: var(--text-color);
+}
+
+nav a {
+    padding: 10px 20px;
+    background-color:
+    var(--main-color);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+}
+
+#about,
+#skills {
+    box-shadow: 0 4px 10px gray;
+}
+@media (max-width: 600px)
+{
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#projects div {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px grey;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#contact
+input[type="submit"],
+#contact
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    border: lightblue;
+    color: black;
+    cursor: pointer;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: none;
+    border: 2px solid blue;
+}
+
+ footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ :root {
+    --main-color: lightblue;
+    --text-color: black;
+ }
+
+ body {
+    margin: 0;
+ }
+
+ section {
+    margin-bottom: 30px;
+ }
+
+ h1, h2 {
+    letter-spacing: 1px;
+ }
+
+ * {
+    box-sizing: border-box;
+ }
